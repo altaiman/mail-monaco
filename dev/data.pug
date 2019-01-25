@@ -1,0 +1,168 @@
+//- images sizes
+//- img - 300x400
+//- item - 120x180
+//- itemOld - 133x200
+
+//- data
+-   
+  brands = {
+    0: 'Bilancioni',
+    1: 'Brunello Cucinelli',
+    2: 'Gran Sasso',
+    3: 'Lanvin',
+    4: 'Kiton',
+    5: 'Poiret',
+    6: 'Rasario',
+    7: 'Santoni',
+    8: 'Tom Ford',
+    9: 'Walk of Shame'
+  }
+
+  types = {
+    0: 'Барсетка',
+    1: 'Бейсболка',
+    2: 'Браслет',
+    3: 'Комбинезон',
+    4: 'Пиджак',
+    5: 'Платье',
+    6: 'Ремень',
+    7: 'Рюкзак',
+    8: 'Сумка',
+    9: 'Шапка',
+    10: 'Шарф',
+    11: 'Перчатки',
+    12: 'Куртка',
+    13: 'Водолазка',
+    14: 'Олимпийка',
+    15: 'Футболка',
+    16: 'Брюки',
+    17: 'Кепка',
+    18: 'Блуза',
+    19: 'Носки',
+    20: 'Свитшот',
+    21: 'Толстовка'
+  }
+  
+  global = {
+    date: '20190124',
+    mediaURL: 'https://monacomoda.com/media/img/mail/new/',
+    dateURL: function() { return this.mediaURL + this.date + '/' },
+    
+    width: 600,
+    
+  	title: 'Walk of Shame',
+  	subtitle: 'Resort 2019',
+    img1: 'img1.jpg',
+    img2: 'img2.jpg',
+    img3: 'img3.jpg',
+    img4: 'img4.jpg',
+    
+  	items: [
+      {
+        link: 'https://monacomoda.com/products/B001APS19_Multicolor/remen/',
+        img: 'item1.jpg',
+        brand: brands[9],
+        type: types[6],
+        newPrice: '15 500'
+      },{
+        link: 'https://monacomoda.com/products/GL004BPS19_Brown/perchatki/',
+        img: 'item2.jpg',
+        brand: brands[9],
+        type: types[11],
+        newPrice: '15 700'
+      },{
+        link: 'https://monacomoda.com/products/C002APS19_Beige/kurtka/',
+        img: 'item3.jpg',
+        brand: brands[9],
+        type: types[12],
+        newPrice: '49 500'
+      },{
+        link: 'https://monacomoda.com/products/SW007APS19_Mint/tolstovka/',
+        img: 'item4.jpg',
+        brand: brands[9],
+        type: types[21],
+        newPrice: '18 500'
+      },
+      
+      {
+        link: 'https://monacomoda.com/products/SW001APS19_Blue/svitshot/',
+        img: 'item5.jpg',
+        brand: brands[9],
+        type: types[20],
+        newPrice: '15 500'
+      },{
+        link: 'https://monacomoda.com/products/JT001APS19_Multicolor/olimpiyka/',
+        img: 'item6.jpg',
+        brand: brands[9],
+        type: types[14],
+        newPrice: '39 900'
+      },{
+        link: 'https://monacomoda.com/products/TSH003BPS19_Black/futbolka/',
+        img: 'item7.jpg',
+        brand: brands[9],
+        type: types[15],
+        newPrice: '7 700'
+      },{
+        link: 'https://monacomoda.com/products/P012APS19_Orange/bryuki/',
+        img: 'item8.jpg',
+        brand: brands[9],
+        type: types[16],
+        newPrice: '19 700'
+      },
+      
+      {
+        link: 'https://monacomoda.com/products/TSH007BPS19_White/futbolka/',
+        img: 'item9.jpg',
+        brand: brands[9],
+        type: types[15],
+        newPrice: '7 500'
+      },{
+        link: 'https://monacomoda.com/products/CP003APS19_White/kepka/',
+        img: 'item10.jpg',
+        brand: brands[9],
+        type: types[17],
+        newPrice: '4 500'
+      },{
+        link: 'https://monacomoda.com/products/SH002APS19_Light_Pink/bluza/',
+        img: 'item11.jpg',
+        brand: brands[9],
+        type: types[18],
+        newPrice: '27 500'
+      },{
+        link: 'https://monacomoda.com/products/SW002APS19_Blue/svitshot/',
+        img: 'item12.jpg',
+        brand: brands[9],
+        type: types[20],
+        newPrice: '13 500'
+      },
+      
+      {
+        link: 'https://monacomoda.com/products/DE006APS19_White/plate/',
+        img: 'item13.jpg',
+        brand: brands[9],
+        type: types[5],
+        newPrice: '75 500'
+      },{
+        link: 'https://monacomoda.com/products/SC003APS19_Black/noski/',
+        img: 'item14.jpg',
+        brand: brands[9],
+        type: types[19],
+        newPrice: '1 300'
+      },{
+        link: 'https://monacomoda.com/products/GL004APS19_White/perchatki/',
+        img: 'item15.jpg',
+        brand: brands[9],
+        type: types[11],
+        newPrice: '15 700'
+      },{
+        link: 'https://monacomoda.com/products/SC006BPS19_Green/noski/',
+        img: 'item16.jpg',
+        brand: brands[9],
+        type: types[19],
+        newPrice: '1 300'
+      }
+      
+    ],
+    
+    utm: '?utm_source=email&utm_medium=email&utm_campaign=novinki&utm_content=walk-of-shame-resort'
+  }
